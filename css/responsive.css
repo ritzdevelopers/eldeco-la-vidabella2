@@ -44,7 +44,7 @@
 } #overview {
     scroll-margin-top: 50px; /* Adjust based on your header height */
 }
-	 #highlights,  #eldeco-group, #amenities, #floors-plan, #location, #contact {
+	 #highlights,  #eldeco-group, #amenities, #floors-plan, #floor-plans, #location, #contact {
     scroll-margin-top: 50px;  
 }  
 	 
@@ -412,7 +412,7 @@
 } #overview {
     scroll-margin-top: 50px; /* Adjust based on your header height */
 }
-	 #highlights,  #eldeco-group, #amenities, #floors-plan, #location, #contact {
+	 #highlights,  #eldeco-group, #amenities, #floors-plan, #floor-plans, #location, #contact {
     scroll-margin-top: 50px;  
 }  
 	 
