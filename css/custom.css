@@ -1503,3 +1503,13 @@ button:focus {
         max-width: 85px;
     }
 }
+
+.updatedLogo  {
+    width: 180px;
+}
+
+@media (max-width: 767px) {
+    .updatedLogo  {
+        width: 140px;
+    }
+}
