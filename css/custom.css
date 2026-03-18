@@ -706,6 +706,7 @@ ul.highlights-list li img {}
 
 .amenities-tabs .nav-tabs {
     border-bottom: none;
+    padding-right: 21px;
 }
 
 .amenities-tabs .nav button {
@@ -723,6 +724,15 @@ ul.highlights-list li img {}
     display: block;
     width: 100%;
     z-index: 100;
+}
+/* Ensure default active tab (Badminton) keeps active bg; later rule was overriding */
+.amenities-tabs .nav button.active,
+.amenities-tabs .nav .nav-link.active {
+    background: #59ce63 !important;
+    background-color: #59ce63 !important;
+    border-bottom: none;
+    border-radius: 60px;
+    color: #fff !important;
 }
 
 .tableft {
@@ -1513,4 +1523,8 @@ button:focus {
     .updatedLogo  {
         width: 140px;
     }
+}
+
+.navbar-nav {
+    gap: 21px !important;
 }

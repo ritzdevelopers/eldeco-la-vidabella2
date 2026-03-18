@@ -53,9 +53,6 @@
                     
                     <li class="nav-item"><a class="nav-link text-white" href="#eldeco-group">Eldeco Group</a></li>
                     <li class="nav-item"><a class="nav-link text-white" href="#contact">Contact</a></li>
-
-
-
                 </ul>
             </div>
         </div>
@@ -169,7 +166,7 @@
             <div class="row">
                 <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                     <div class="title-overview text-center">Overview</div>
-                    <h2 class="text-center">Discover Luxury At It's Best.</h2>
+                    <h2 class="text-center">Experience Luxury at Its Finest.</h2>
                     <p class="text-center width80">
                         Eldeco La Vida Bella brings you to the center of comfort and excitement in Greater Noida West.
                         Set amidst serene landscapes, it features five elegant towers with <strong>spacious 4BR premium
@@ -194,7 +191,7 @@
                             <div class="price-box p-4 text-white">
 
                                 <div class="price-text1">
-                                    <h5 class="font-weight-bold">Spacious 4BR <span class="font-weight-normal">Premium
+                                    <h5 class="font-weight-bold" style="line-height: 30px;">Spacious 4BR <span class="font-weight-normal">Premium
                                             Residences</span></h5>
 
                                     <p class="starting">Starting at</p>
@@ -203,7 +200,7 @@
 
                                 <div class="price-text2">
 
-                                    <h5 class="font-weight-bold mt-4">Discover Home Today!<span
+                                    <h5 class="font-weight-bold mt-4">Discover Your Home Today!<span
                                             class="font-weight-normal"></span></h5>
                                     <p class="starting" style="text-align: end; margin-top: 40px;">*T&C Apply</p>
                                 </div>
@@ -323,7 +320,7 @@
                                     </li>
                                     <li class="nav-item" role="presentation">
                                         <button class="nav-link" id="amenities-tab2-tab" data-toggle="tab"
-                                            data-target="#amenitiestab2" type="button" role="tab"
+                                            data-target="#amenitiestab2" type="but```````````````````````````````````````````````1ton" role="tab"
                                             aria-controls="profile" aria-selected="false"><img class="amenity-icon"
                                                 src="images/amenity2.png" alt="">Cricket Pitch
                                             <span class="active-arrow"><img src="images/arrow-right-white.png"
@@ -770,15 +767,10 @@
 
                             <div class="row">
                                 <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                                    <h3>The Eldeco Group has been at the forefront of Real Estate development since
-                                        1985.</h3>
+                                    <h3>A Legacy of Trust Since 1985.</h3>
 
-                                    <p>The Group is synonymous with timely and quality delivery in 20 cities in North
-                                        India and has already handed over 200 projects spanning large-format integrated
-                                        townships, high-rise condominiums, industrial estates, malls and office
-                                        buildings. Besides, 30 projects are in various stages of active execution. The
-                                        aggregate delivered area stands at more than 30 million sq.ft. with over 30,000
-                                        satisfied customers.</p>
+                                    <p>The Eldeco Group has been at the forefront of real estate development since 1985, earning a reputation for timely delivery and uncompromising quality. With a presence across 20 cities in North India, the Group has successfully delivered over 200 projects, including integrated townships, high-rise residences, industrial estates, malls, and office spaces.
+                                        With more than 30 projects currently under active development, Eldeco has delivered over 30 million sq. ft. of space and earned the trust of 30,000+ satisfied customers.</p>
                                 </div>
 
                                 <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
@@ -965,17 +957,20 @@
             }
         });
 
-        // Active highlight on scroll
+        // Active highlight on scroll (navbar section links only – do not affect amenities tabs)
         $(window).on("scroll", function () {
             let scrollPos = $(document).scrollTop();
 
-            $(".nav-link").each(function () {
-                let section = $($(this).attr("href"));
+            $(".navbar-nav .nav-link").each(function () {
+                let href = $(this).attr("href");
+                if (!href || href.indexOf("#") !== 0) return;
+                let section = $(href);
+                if (!section.length) return;
                 if (
                     section.position().top <= scrollPos + 120 &&
                     section.position().top + section.height() > scrollPos
                 ) {
-                    $(".nav-link").removeClass("active");
+                    $(".navbar-nav .nav-link").removeClass("active");
                     $(this).addClass("active");
                 }
             });
@@ -1007,6 +1002,12 @@
     <script src="viewbox/jquery.viewbox.min.js"></script>
     <script>
         $(function () {
+
+            /* Ensure Badminton tab is active by default when site loads */
+            $('#myTab .nav-link').removeClass('active');
+            $('#amenities-tab1-tab').addClass('active');
+            $('#myTabContent .tab-pane').removeClass('show active');
+            $('#amenitiestab1').addClass('show active');
 
             /* Gallery viewbox: only gallery images (next/prev stay in gallery) */
             $('#gallery .thumbnail').viewbox();
