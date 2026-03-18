@@ -1314,6 +1314,7 @@ button:focus {
         font-size: 15px;
     }
     .leftSideContainer div h2 {
+        line-height: 20px;
         font-size: 15px;
     }
     .leftSideContainer div h3 {
