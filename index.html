@@ -1,0 +1,1624 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Eldeco</title>
+
+    <link rel='stylesheet' href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.css" />
+    <link rel="stylesheet" href="viewbox/viewbox.css">
+    <link rel="stylesheet" href="css/custom.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16457709652"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'AW-16457709652');
+    </script>
+</head>
+
+<body>
+
+    <!-- Header Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <a class="navbar-brand font-weight-bold text-white" href="#"><img src="images/logo.png" alt=""></a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarMenu">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link text-white" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#overview">Overview</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#highlights">Highlights</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#eldeco-group">Eldeco Group</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#amenities">Amenities</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#gallery">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#floors-plan">Floors Plan</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#location">Location</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#contact">Contact</a></li>
+
+
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="heroslider">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="mobile-slider"><img class="d-block w-100" src="images/slider2m.jpg" alt=""></div>
+                <div class="desktop-slider"><img class="d-block w-100" src="images/slider2.jpg" alt=""></div>
+
+                <div class="carousel-caption-left">
+                    <div class="logo-vida-bella"><img src="images/logo-vida-bella.png"><span
+                            class="logo-vida-sector12">Sector 12, Greater Noida (West)</span></div>
+                    <div class="pay30"><img src="images/pay30.png"><span class="pay30text">Now and nothing till 15
+                            months**</span></div>
+                    <div class="paylater"><span><strong>Pay 10 %</strong> at the <br> Time of Booking</span>
+                        <span><strong>Pay 20 %</strong> after <br> withing 45 days of agreement</span>
+                    </div>
+                </div>
+
+                <div class="carousel-caption-right">
+                    <div class="luxurious-living">Luxurious Living in The West
+                        <span>3 & 4 BR Premium Residences</span>
+                    </div>
+                    <div class="amenities-banner">
+                        <img src="images/amenites-banner1.png" alt="">
+                        <img src="images/amenites-banner2.png" alt="">
+                        <img src="images/amenites-banner3.png" alt="">
+                        <img src="images/amenites-banner4.png" alt="">
+                        <img src="images/amenites-banner5.png" alt="">
+                        <img src="images/amenites-banner6.png" alt="">
+                    </div>
+
+                    <div class="registration">
+                        <span> UP Rera Registration No.: UPRERAPRJ136219/04/2024<br>
+                            www.up-rera.in/projects<br>
+                            Launch Date : 1st FEB 2024<br>
+                            Collection A/C details of Eldeco La Vida Bella:<br>
+                            Eldeco Real Estate Ltd. | Bank Name: HDFC Bank Ltd<br>
+                            Bank A/c No.: 57500001388922<br>
+                            IFSC Code: HDFC0002830</span>
+                        <img src="images/barcode.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="contact-box">
+
+        <div class="contact-btn" id="toggleBtn">
+            <span>Contact With Us!</span>
+            <span class="icon" id="icon">+</span>
+        </div>
+
+        <div class="contact-form" id="contactForm">
+
+            <form id="floatingContactForm">
+                <input type="text" id="floatingName" placeholder="Name" required>
+                <div class="error-message" id="floatingNameError"
+                    style="color: #dc3545; font-size: 12px; margin-top: -10px; margin-bottom: 10px; display: none;">Name
+                    is required</div>
+
+                <input type="tel" id="floatingContact" placeholder="Mobile Number" required>
+                <div class="error-message" id="floatingContactError"
+                    style="color: #dc3545; font-size: 12px; margin-top: -10px; margin-bottom: 10px; display: none;">
+                    Valid mobile number is required (10 digits)</div>
+
+                <input type="email" id="floatingEmail" placeholder="Email Address" required>
+                <div class="error-message" id="floatingEmailError"
+                    style="color: #dc3545; font-size: 12px; margin-top: -10px; margin-bottom: 10px; display: none;">
+                    Valid email address is required</div>
+
+                <textarea id="floatingMessage" placeholder="Your Message"></textarea>
+
+                <button type="submit" class="submit-btn">Schedule Site Visit</button>
+            </form>
+        </div>
+
+    </div>
+
+    <!-- Mobile Enquiry Now Button -->
+    <button class="mobile-enquiry-btn" id="mobileEnquiryBtn">
+        <span>Enquiry Now</span>
+    </button>
+
+    <section id="overview" class="overview-section container70">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                    <div class="title-overview text-center">Overview</div>
+                    <h2 class="text-center">Discover Luxury At It's Best.</h2>
+                    <p class="text-center width80">
+                        Eldeco La Vida Bella brings you to the center of comfort and excitement in Greater Noida West.
+                        Set amidst serene landscapes, it features five elegant towers with <strong>spacious 4BR premium
+                            residences</strong>. Enjoy seamless connectivity via the 130m Noida-Greater Noida Link Road
+                        and smooth internal access with wide roads. Each home is equipped with all-weather air
+                        conditioning and a grand 9-ft entrance door with digital lock, offering a perfect blend of
+                        luxury and security.
+
+
+                    </p>
+
+                    <a href="#" class="download-btn mt-4" id="downloadBrochureBtn">
+                        Download Brochure <img src="images/downloan-icon.png" alt=""></a>
+
+                </div>
+
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                    <div class="aboutboxes">
+
+                        <div class="price-box-outer">
+                            <div class="price-box-gray"></div>
+                            <div class="price-box p-4 text-white">
+
+                                <div class="price-text1">
+                                    <h5 class="font-weight-bold">Spacious 4BR <span class="font-weight-normal">Premium
+                                            Residences</span></h5>
+
+                                    <p class="starting">Starting at</p>
+                                    <h3>₹ 4.45 Cr* </h3>
+                                </div>
+
+                                <div class="price-text2">
+
+                                    <h5 class="font-weight-bold mt-4">Discover Home Today!<span
+                                            class="font-weight-normal"></span></h5>
+                                    <p class="starting" style="text-align: end; margin-top: 40px;">*T&C Apply</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="about2img"><img src="images/about2.jpg" alt=""></div>
+
+
+                        <div class="livebox-box-outer">
+                            <div class="livebox-box-gray"><img src="images/about1.jpg" alt=""></div>
+                            <div class="livebox-box p-4 text-white">
+
+                                <h3>live big <br><strong>live b<img class="boldimg" src="images/bold.png"
+                                            alt="">ld</strong></h3>
+                                <p><strong>Eldeco La Vida Bella</strong> rises along the city's vital connection where
+                                    the Noida-Greater Noida Link Road keeps life following effortlessly.</p>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section id="highlights" class="highlights-section container70">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+
+                    <h2 class="text-center">Highlights</h2>
+
+                    <ul class="highlights-list">
+
+                        <li><img src="images/highlight1.png" alt="">
+                            <p>Only 2 Apartments On Each Floor</p>
+                        </li>
+                        <li><img src="images/highlight2.png" alt="">
+                            <p>360-Degree View with L-Shaped Balconies</p>
+                        </li>
+                        <li><img src="images/highlight3.png" alt="">
+                            <p>Fewer People, <br> More Serenity</p>
+                        </li>
+                        <li><img src="images/highlight4.png" alt="">
+                            <p>75% Of Open Spaces</p>
+                        </li>
+                        <li><img src="images/highlight5.png" alt="">
+                            <p>Over 35 + Amenities</p>
+                        </li>
+                        <li><img src="images/highlight6.png" alt="">
+                            <p>All Weather Air Conditioning In All Rooms</p>
+                        </li>
+                        <li><img src="images/highlight7.png" alt="">
+                            <p>9-Ft Entrance Door With Digital Lock</p>
+                        </li>
+                        <li><img src="images/highlight8.png" alt="">
+                            <p>Floor To Floor 11 Ft Height</p>
+                        </li>
+                        <li><img src="images/highlight9.png" alt="">
+                            <p>Double-Height, <br> Air-Conditioned Lobby</p>
+                        </li>
+                        <li><img src="images/highlight10.png" alt="">
+                            <p>Rooftop swimming pool with loungers</p>
+                        </li>
+
+
+                    </ul>
+
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="eldeco-group" class="eldeco-group-section container70">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+
+                    <div class="about-developer-outer">
+                        <div class="about-developer-text">
+
+                            <div class="row">
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                                    <h3>The Eldeco Group has been at the forefront of Real Estate development since
+                                        1985.</h3>
+
+                                    <p>The Group is synonymous with timely and quality delivery in 20 cities in North
+                                        India and has already handed over 200 projects spanning large-format integrated
+                                        townships, high-rise condominiums, industrial estates, malls and office
+                                        buildings. Besides, 30 projects are in various stages of active execution. The
+                                        aggregate delivered area stands at more than 30 million sq.ft. with over 30,000
+                                        satisfied customers.</p>
+                                </div>
+
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                                    <div class="text-center"><img src="images/aboutdeveloper.png" alt=""></div>
+                                </div>
+
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                                    <div class="stats-grid">
+                                        <div class="stat-box">
+                                            <h4>40+</h4>
+                                            <p class="mb-0">Years</p>
+                                        </div>
+
+                                        <div class="stat-box">
+                                            <h4>20+</h4>
+                                            <p class="mb-0">Cities</p>
+                                        </div>
+
+                                        <div class="stat-box">
+                                            <h4>200+</h4>
+                                            <p class="mb-0">Projects</p>
+                                        </div>
+
+                                        <div class="stat-box">
+                                            <h4>30000+</h4>
+                                            <p class="mb-0">Homes</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+
+
+                        <div class="about-developer">
+                            <img src="images/about-eldeco.png" class="img-fluid" alt="">
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <section id="amenities" class="amenities-section container70">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                    <div class="mobile">
+                        <div class="tabrighthdng">
+                            <h2>Amenities</h2>
+                            <p>Gated Luxury Living with Rooftop Pool, Clubhouse, Gym, Yoga/Meditation Zone, Kids' Play
+                                Area, Sports Courts, and 24/7 Security.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 amenities-tabs">
+
+                    <div class="tabsouter">
+
+                        <div class="tableft">
+                            <div class="tableft-inner">
+
+
+                                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link active" id="amenities-tab1-tab" data-toggle="tab"
+                                            data-target="#amenitiestab1" type="button" role="tab" aria-controls="home"
+                                            aria-selected="true"><img class="amenity-icon" src="images/amenity1.png"
+                                                alt="">Badminton Court
+                                            <span class="active-arrow"><img src="images/arrow-right-white.png"
+                                                    alt=""></span></button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link" id="amenities-tab2-tab" data-toggle="tab"
+                                            data-target="#amenitiestab2" type="button" role="tab"
+                                            aria-controls="profile" aria-selected="false"><img class="amenity-icon"
+                                                src="images/amenity2.png" alt="">Cricket Pitch
+                                            <span class="active-arrow"><img src="images/arrow-right-white.png"
+                                                    alt=""></span></button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link" id="amenities-tab3-tab" data-toggle="tab"
+                                            data-target="#amenitiestab3" type="button" role="tab"
+                                            aria-controls="profile" aria-selected="false"><img class="amenity-icon"
+                                                src="images/amenity3.png" alt="">Party Hall
+                                            <span class="active-arrow"><img src="images/arrow-right-white.png"
+                                                    alt=""></span></button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link" id="amenities-tab4-tab" data-toggle="tab"
+                                            data-target="#amenitiestab4" type="button" role="tab"
+                                            aria-controls="profile" aria-selected="false"><img class="amenity-icon"
+                                                src="images/amenity4.png" alt="">Club Roof Top Swimming Pool
+                                            <span class="active-arrow"><img src="images/arrow-right-white.png"
+                                                    alt=""></span></button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link" id="amenities-tab5-tab" data-toggle="tab"
+                                            data-target="#amenitiestab5" type="button" role="tab"
+                                            aria-controls="profile" aria-selected="false"><img class="amenity-icon"
+                                                src="images/amenity5.png" alt="">Multipurpose Court
+                                            <span class="active-arrow"><img src="images/arrow-right-white.png"
+                                                    alt=""></span></button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link" id="amenities-tab6-tab" data-toggle="tab"
+                                            data-target="#amenitiestab6" type="button" role="tab"
+                                            aria-controls="profile" aria-selected="false"><img class="amenity-icon"
+                                                src="images/amenity6.png" alt="">Table Tennis
+                                            <span class="active-arrow"><img src="images/arrow-right-white.png"
+                                                    alt=""></span></button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link" id="amenities-tab7-tab" data-toggle="tab"
+                                            data-target="#amenitiestab7" type="button" role="tab"
+                                            aria-controls="profile" aria-selected="false"><img class="amenity-icon"
+                                                src="images/amenity7.png" alt="">Kid's Play Area
+                                            <span class="active-arrow"><img src="images/arrow-right-white.png"
+                                                    alt=""></span></button>
+                                    </li>
+
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link" id="amenities-tab8-tab" data-toggle="tab"
+                                            data-target="#amenitiestab8" type="button" role="tab"
+                                            aria-controls="profile" aria-selected="false"><img class="amenity-icon"
+                                                src="images/amenity8.png" alt="">Gym
+                                            <span class="active-arrow"><img src="images/arrow-right-white.png"
+                                                    alt=""></span></button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link" id="amenities-tab9-tab" data-toggle="tab"
+                                            data-target="#amenitiestab9" type="button" role="tab"
+                                            aria-controls="profile" aria-selected="false"><img class="amenity-icon"
+                                                src="images/amenity9.png" alt="">Billiards
+                                            <span class="active-arrow"><img src="images/arrow-right-white.png"
+                                                    alt=""></span></button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link" id="amenities-tab10-tab" data-toggle="tab"
+                                            data-target="#amenitiestab10" type="button" role="tab"
+                                            aria-controls="profile" aria-selected="false"><img class="amenity-icon"
+                                                src="images/amenity10.png" alt="">Pickle Ball
+                                            <span class="active-arrow"><img src="images/arrow-right-white.png"
+                                                    alt=""></span></button>
+                                    </li>
+
+
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="tabright">
+
+                            <div class="desktop">
+                                <div class="tabrighthdng">
+                                    <h2>Amenities</h2>
+                                    <p>Gated luxury living with rooftop pool, clubhouse, gym, yoga/meditation zone,
+                                        kids’ play area, sports courts & 24×7-security.</p>
+                                </div>
+                            </div>
+
+                            <div class="tabs-content">
+                                <div class="tab-content" id="myTabContent">
+
+                                    <div class="tab-pane fade show active" id="amenitiestab1" role="tabpanel"
+                                        aria-labelledby="amenities-tab1-tab">
+                                        <img class="img-fluid" src="images/badminton-2.jpg" alt="">
+                                    </div>
+
+                                    <div class="tab-pane fade" id="amenitiestab2" role="tabpanel"
+                                        aria-labelledby="amenities-tab2-tab">
+                                        <img class="img-fluid" src="images/cricket-pitch.jpg" alt="">
+                                    </div>
+
+                                    <div class="tab-pane fade" id="amenitiestab3" role="tabpanel"
+                                        aria-labelledby="amenities-tab3-tab">
+                                        <img class="img-fluid" src="images/party-hall.jpg" alt="">
+                                    </div>
+
+                                    <div class="tab-pane fade" id="amenitiestab4" role="tabpanel"
+                                        aria-labelledby="amenities-tab4-tab">
+                                        <img class="img-fluid" src="images/badminton-court.jpg" alt="">
+                                    </div>
+
+                                    <div class="tab-pane fade" id="amenitiestab5" role="tabpanel"
+                                        aria-labelledby="amenities-tab5-tab">
+                                        <img class="img-fluid" src="images/multipurpose-court.jpg" alt="">
+                                    </div>
+
+                                    <div class="tab-pane fade" id="amenitiestab6" role="tabpanel"
+                                        aria-labelledby="amenities-tab6-tab">
+                                        <img class="img-fluid" src="images/table-tennis.jpg" alt="">
+                                    </div>
+
+                                    <div class="tab-pane fade" id="amenitiestab7" role="tabpanel"
+                                        aria-labelledby="amenities-tab7-tab">
+                                        <img class="img-fluid" src="images/kidsplay.jpg" alt="">
+                                    </div>
+
+                                    <div class="tab-pane fade" id="amenitiestab8" role="tabpanel"
+                                        aria-labelledby="amenities-tab8-tab">
+                                        <img class="img-fluid" src="images/gym.jpg" alt="">
+                                    </div>
+
+                                    <div class="tab-pane fade" id="amenitiestab9" role="tabpanel"
+                                        aria-labelledby="amenities-tab9-tab">
+                                        <img class="img-fluid" src="images/billiards.jpg" alt="">
+                                    </div>
+
+                                    <div class="tab-pane fade" id="amenitiestab10" role="tabpanel"
+                                        aria-labelledby="amenities-tab10-tab">
+                                        <img class="img-fluid" src="images/pickle-ball.jpg" alt="">
+                                    </div>
+
+
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <section id="gallery" class="gallery-section gallery viewbox_gallery">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="text-center">Gallery</h2>
+                    <div class="width80">
+                        <p class="text-center">Step into modern luxury at Eldeco La Vida Bella, offering expansive 4BR residences in a serene, amenity-rich setting. Indulge in elegant interiors and rooftop living.
+</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- ROW 1 -->
+
+            <!-- ====== ROW 1 ====== -->
+            <div class="row no-gutters galleryrowminus">
+
+                <!-- Left 2 small images -->
+                <div class="col-12 col-md-5 twoheight">
+                    <div class="row no-gutters">
+
+
+                        <div class="col-6 item">
+                            <div class="gallerybox">
+                                <a href="images/gallery1-large.jpg" class="thumbnail">
+                                    <img class="img-fluid" src="images/gallery1.jpg" alt=""></a>
+                            </div>
+                        </div>
+
+                        <div class="col-6 item">
+                            <div class="gallerybox">
+                                <a href="images/gallery2-large.jpg" class="thumbnail">
+                                    <img class="img-fluid" src="images/gallery2.jpg" alt=""></a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Right 2 images (1 big, 1 small) -->
+                <div class="col-12 col-md-7">
+                    <div class="row no-gutters">
+                        <div class="col-8 item">
+                            <div class="gallerybox">
+                                <a href="images/gallery3-large.jpg" class="thumbnail">
+                                    <img class="img-fluid" src="images/gallery3.jpg" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="col-4 item">
+                            <div class="gallerybox">
+                                <a href="images/gallery4-large.jpg" class="thumbnail">
+                                    <img class="img-fluid" src="images/gallery4.jpg" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- ====== ROW 2 ====== -->
+            <div class="row no-gutters">
+
+                <!-- LEFT SIDE -->
+                <div class="col-12 col-md-6 gallerycolheight">
+                    <div class="row no-gutters">
+                        <div class="col-4 item">
+                            <div class="gallerybox">
+                                <a href="images/gallery5-large.jpg" class="thumbnail">
+                                    <img class="img-fluid" src="images/gallery5.jpg" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="col-8 item">
+                            <div class="gallerybox">
+                                <a href="images/gallery6-large.jpg" class="thumbnail">
+                                    <img class="img-fluid" src="images/gallery6.jpg" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- RIGHT SIDE -->
+                <div class="col-12 col-md-6">
+
+                    <div class="row no-gutters">
+                        <div class="col-6 item">
+                            <div class="gallerybox">
+                                <a href="images/gallery7-large.jpg" class="thumbnail">
+                                    <img class="img-fluid" src="images/gallery7.jpg" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="col-6 item">
+                            <div class="gallerybox">
+                                <a href="images/gallery8-large.jpg" class="thumbnail">
+                                    <img class="img-fluid" src="images/gallery8.jpg" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row no-gutters">
+                        <div class="col-12 item">
+                            <div class="gallerybox">
+                                <a href="images/gallery9-large.jpg" class="thumbnail">
+                                    <img class="img-fluid" src="images/gallery9.jpg" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+        </div>
+    </section>
+
+
+
+
+    <section id="floors-plan" class="floor-plan-section viewbox_gallery container70">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                    <div class="masterplan">
+                        <h4>Master Plan</h4>
+                        <div class="masterplanimg">
+                            <div class="gallerybox">
+                                <a href="images/master-plan-large.jpg" class="thumbnail">
+                                    <img class="img-fluid" src="images/master-plan.jpg" alt=""></a>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
+                    <div class="floorplan">
+                        <h4>Floor Plans</h4>
+
+
+                        <div id="floorplan-carousel" class="floorcarouselwidth">
+                            <div class="item">
+                                <div class="gallerybox">
+                                    <a href="images/floor-plan-large.jpg" class="thumbnail">
+                                        <img class="img-fluid" src="images/floor-plan.jpg" alt=""></a>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="gallerybox">
+                                    <a href="images/floor-plan2-large.jpg" class="thumbnail">
+                                        <img class="img-fluid" src="images/floor-plan2.jpg" alt=""></a>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="gallerybox">
+                                    <a href="images/floor-plan-large.jpg" class="thumbnail">
+                                        <img class="img-fluid" src="images/floor-plan.jpg" alt=""></a>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="gallerybox">
+                                    <a href="images/floor-plan2-large.jpg" class="thumbnail">
+                                        <img class="img-fluid" src="images/floor-plan2.jpg" alt=""></a>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+
+
+
+    <section id="location" class="location-section">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-5">
+                    <div class="eldecolocation"><img class="img-fluid" src="images/eldecolocation.png" alt=""></div>
+                </div>
+
+                <div class="col-12 col-sm-12 col-md-12 col-lg-7 col-xl-7">
+                    <h2>Location Advantage</h2>
+                    <div class="eldecolocation-points">
+
+                        <div class="row">
+
+                            <!-- Item 1 -->
+                            <div class="col-12 col-md-4 mb-3 d-flex">
+                                <div class="icon-wrap">
+                                    <img src="images/location-icon1.png" alt="">
+                                </div>
+                                <div class="ml-3">
+                                    <p class="feature-text">
+                                        Noida special economic zone 30 mins away
+                                    </p>
+                                </div>
+                            </div>
+
+                            <!-- Item 2 -->
+                            <div class="col-12 col-md-4 mb-3 d-flex">
+                                <div class="icon-wrap">
+                                    <img src="images/location-icon2.png" alt="">
+                                </div>
+                                <div class="ml-3">
+                                    <p class="feature-text">
+                                        The proposed Metro Station is 3 Km away
+                                    </p>
+                                </div>
+                            </div>
+
+                            <!-- Item 3 -->
+                            <div class="col-12 col-md-4 mb-3 d-flex">
+                                <div class="icon-wrap">
+                                    <img src="images/location-icon3.png" alt="">
+                                </div>
+                                <div class="ml-3">
+                                    <p class="feature-text">
+                                        Knowledge park V just 5 mins drive
+                                    </p>
+                                </div>
+                            </div>
+
+                            <!-- Item 4 -->
+                            <div class="col-12 col-md-4 mb-3 d-flex">
+                                <div class="icon-wrap">
+                                    <img src="images/location-icon4.png" alt="">
+                                </div>
+                                <div class="ml-3">
+                                    <p class="feature-text">
+                                        Well, connected via 130 meter Noida-Greater Noida link road
+                                    </p>
+                                </div>
+                            </div>
+
+                            <!-- Item 5 -->
+                            <div class="col-12 col-md-4 mb-3 d-flex">
+                                <div class="icon-wrap">
+                                    <img src="images/location-icon5.png" alt="">
+                                </div>
+                                <div class="ml-3">
+                                    <p class="feature-text">
+                                        Multiple Super Speciality Hospitals within 7KM
+                                    </p>
+                                </div>
+                            </div>
+
+                            <!-- Item 6 -->
+                            <div class="col-12 col-md-4 mb-2 d-flex">
+                                <div class="icon-wrap">
+                                    <img src="images/location-icon6.png" alt="">
+                                </div>
+                                <div class="ml-3">
+                                    <p class="feature-text">
+                                        High Street Malls at a driving distance
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                        <div class="row">
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                                <div class="googlemap">
+                                    <iframe
+                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3504.21437529894!2d77.48150357549825!3d28.563324675702578!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda848984351d03b%3A0xb86fe2ab0aa1f9a1!2sEldeco%20La%20Vida%20Bella!5e0!3m2!1sen!2sin!4v1764918125757!5m2!1sen!2sin"
+                                        width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+                                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <section id="contact" class="contact-section visit-section">
+        <div class="container">
+            <div class="row align-items-start">
+
+                <!-- Left Text -->
+                <div class="col-12 col-md-12 col-lg-4">
+                    <h2 class="visit-title">We’d Love to Show You Around!</h2>
+                    <p class="visit-subtitle">Come Experience La Vida Bella Yourself</p>
+                </div>
+
+                <!-- Form -->
+                <div class="col-12 col-md-12 col-lg-8">
+                    <form id="contactSectionForm">
+                        <div class="form-row">
+                            <div class="form-group col-md-4">
+                                <input type="text" id="contactName" class="form-control custom-input"
+                                    placeholder="Name">
+                                <div class="error-message" id="contactNameError"
+                                    style="color: #dc3545; font-size: 12px; margin-top: 5px; display: none;">Name is
+                                    required</div>
+                            </div>
+                            <div class="form-group col-md-4">
+                                <input type="text" id="contactMobile" class="form-control custom-input"
+                                    placeholder="Mobile No.">
+                                <div class="error-message" id="contactMobileError"
+                                    style="color: #dc3545; font-size: 12px; margin-top: 5px; display: none;">Valid
+                                    mobile number is required (10 digits)</div>
+                            </div>
+                            <div class="form-group col-md-4">
+                                <input type="email" id="contactEmail" class="form-control custom-input"
+                                    placeholder="E-Mail Address">
+                                <div class="error-message" id="contactEmailError"
+                                    style="color: #dc3545; font-size: 12px; margin-top: 5px; display: none;">Valid email
+                                    address is required</div>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <textarea rows="4" id="contactMessage" class="form-control custom-input"
+                                placeholder="Your Message"></textarea>
+                        </div>
+
+                        <button type="submit" class="btn submit-btn">Submit</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Enquiry Popup Modal -->
+    <div class="enquiry-popup-overlay" id="enquiryPopup">
+        <div class="enquiry-popup">
+            <div class="enquiry-popup-header">
+                <h3>Get Your Brochure</h3>
+                <button class="enquiry-popup-close" id="closeEnquiryPopup">&times;</button>
+            </div>
+            <div class="enquiry-popup-body">
+                <p style="margin-bottom: 20px; color: #555; font-family: 'Open Sans', sans-serif;">Fill in your details
+                    to download the brochure</p>
+                <form id="enquiryPopupForm" class="enquiry-popup-form">
+                    <input type="text" id="popupName" placeholder="Name" required>
+                    <div class="error-message" id="popupNameError">Name is required</div>
+
+                    <input type="tel" id="popupContact" placeholder="Mobile Number" required>
+                    <div class="error-message" id="popupContactError">Valid mobile number is required (10 digits)</div>
+
+                    <input type="email" id="popupEmail" placeholder="Email Address" required>
+                    <div class="error-message" id="popupEmailError">Valid email address is required</div>
+
+                    <textarea id="popupMessage" rows="4" placeholder="Your Message"></textarea>
+
+                    <button type="submit" class="submit-btn">Download Brochure</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer class="project-footer">
+        <div class="container text-center">
+
+            <!-- QR Code -->
+            <img src="images/barcode.png" alt="QR Code" class="qr-image">
+
+            <!-- RERA Number -->
+            <p class="rera-text mt-3">
+                <strong>RERA NO.: UPRERAPRJ136219/04/2024</strong>
+                <a href="https://www.up-rera.in" target="_blank">www.up-rera.in</a>
+            </p>
+
+            <!-- Disclaimer -->
+            <p class="disclaimer-text">
+                <strong>Disclaimer</strong> - The content and visuals in this advertisement are solely an artistic
+                rendering for illustrative purposes and are not to scale, it does not constitute a legal offer or forms
+                part of any legally binding agreement. The promoter of the project clarifies that the information
+                provided herein are indicative in nature. Intending purchasers are advised to verify all the details
+                independently with the respective sales team of promoter of the project regarding plans, specifications,
+                terms of sales and payments and other relevant details independently before making any purchase decision
+                regarding any unit in the project.
+            </p>
+
+            <!-- Links -->
+            <p class="link-text">
+                <a href="#">Disclaimer</a> &nbsp; <a href="#">Privacy Policy</a>
+            </p>
+
+            <!-- Copyright -->
+            <p class="copyright-text">
+                © Copyright 2026 Eldeco-la-vida-bella. All Rights Reserved.
+            </p>
+        </div>
+    </footer>
+
+
+
+
+
+    <!-- jQuery + Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+
+
+    <script>
+        // Change navbar background after scroll
+        $(window).on("scroll", function () {
+            if ($(this).scrollTop() > 50) {
+                $(".navbar").addClass("scrolled");
+                $(".nav-link, .navbar-brand").removeClass("text-white").addClass("text-dark");
+            } else {
+                $(".navbar").removeClass("scrolled");
+                $(".nav-link, .navbar-brand").removeClass("text-dark").addClass("text-white");
+            }
+        });
+
+        // Active highlight on scroll
+        $(window).on("scroll", function () {
+            let scrollPos = $(document).scrollTop();
+
+            $(".nav-link").each(function () {
+                let section = $($(this).attr("href"));
+                if (
+                    section.position().top <= scrollPos + 120 &&
+                    section.position().top + section.height() > scrollPos
+                ) {
+                    $(".nav-link").removeClass("active");
+                    $(this).addClass("active");
+                }
+            });
+        });
+    </script>
+
+
+    <script>
+        function openCity(evt, cityName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(cityName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+
+        // Get the element with id="defaultOpen" and click on it
+        document.getElementById("defaultOpen").click();
+    </script>
+
+
+    <script type="text/javascript" src="viewbox/jquery-1.12.0.min.js"></script>
+    <script src="viewbox/jquery.viewbox.min.js"></script>
+    <script>
+        $(function () {
+
+            $('.thumbnail').viewbox();
+            $('.thumbnail-2').viewbox();
+
+            (function () {
+                var vb = $('.popup-link').viewbox();
+                $('.popup-open-button').click(function () {
+                    vb.trigger('viewbox.open');
+                });
+                $('.close-button').click(function () {
+                    vb.trigger('viewbox.close');
+                });
+            })();
+
+        });
+    </script>
+
+    <!--carousel -->
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/selectordie.js"></script>
+    <script src="js/custom.js" type="text/javascript"></script>
+
+
+    <script>
+        if ($("#floorplan-carousel").length) {
+            $("#floorplan-carousel").owlCarousel({
+                loop: true,
+                margin: 0,
+                nav: true,
+                navText: [
+                    "<span><img src='images/arrow_left.png'></span>",
+                    "<span><img src='images/arrow_right.png'></span>",
+                ],
+                dots: false,
+                autoplay: false,
+                responsive: {
+                    0: {
+                        items: 2,
+                    },
+                    500: {
+                        items: 2,
+                    },
+                    600: {
+                        items: 2,
+                    },
+                    1000: {
+                        items: 3,
+                    },
+                },
+            });
+        }
+    </script>
+
+    <script>
+        const toggleBtn = document.getElementById("toggleBtn");
+        const contactForm = document.getElementById("contactForm");
+        const icon = document.getElementById("icon");
+
+        toggleBtn.addEventListener("click", () => {
+            contactForm.classList.toggle("open");
+
+            if (contactForm.classList.contains("open")) {
+                icon.innerText = "–";
+            } else {
+                icon.innerText = "+";
+            }
+        });
+    </script>
+
+    <!-- Button Loader Styles & Popup Modal Styles -->
+    <style>
+        .btn-loader {
+            display: inline-block;
+            width: 18px;
+            height: 18px;
+            border: 3px solid rgba(255, 255, 255, 0.3);
+            border-radius: 50%;
+            border-top-color: #fff;
+            animation: spin 0.8s linear infinite;
+            margin-right: 8px;
+            vertical-align: middle;
+        }
+
+        @keyframes spin {
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        .submit-btn:disabled {
+            opacity: 0.7;
+            cursor: not-allowed;
+        }
+
+        /* Popup Modal Styles */
+        .enquiry-popup-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.7);
+            z-index: 10000;
+            animation: fadeIn 0.3s ease;
+        }
+
+        .enquiry-popup-overlay.show {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideDown {
+            from {
+                transform: translateY(-50px);
+                opacity: 0;
+            }
+
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        .enquiry-popup {
+            background: #fff;
+            border-radius: 12px;
+            max-width: 500px;
+            width: 100%;
+            max-height: 90vh;
+            overflow-y: auto;
+            position: relative;
+            animation: slideDown 0.3s ease;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+        }
+
+        .enquiry-popup-header {
+            background: #008f3c;
+            color: #fff;
+            padding: 20px;
+            border-radius: 12px 12px 0 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .enquiry-popup-header h3 {
+            margin: 0;
+            font-size: 24px;
+            font-weight: 700;
+            font-family: "Montserrat", sans-serif;
+        }
+
+        .enquiry-popup-close {
+            background: transparent;
+            border: none;
+            color: #fff;
+            font-size: 28px;
+            cursor: pointer;
+            width: 35px;
+            height: 35px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            transition: background 0.3s;
+        }
+
+        .enquiry-popup-close:hover {
+            background: rgba(255, 255, 255, 0.2);
+        }
+
+        .enquiry-popup-body {
+            padding: 30px;
+        }
+
+        .enquiry-popup-form input,
+        .enquiry-popup-form textarea {
+            width: 100%;
+            padding: 12px 15px;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 16px;
+            font-family: "Open Sans", sans-serif;
+            transition: border-color 0.3s;
+        }
+
+        .enquiry-popup-form input:focus,
+        .enquiry-popup-form textarea:focus {
+            outline: none;
+            border-color: #008f3c;
+        }
+
+        .enquiry-popup-form input.error,
+        .enquiry-popup-form textarea.error {
+            border-color: #dc3545;
+        }
+
+        .error-message {
+            color: #dc3545;
+            font-size: 14px;
+            margin-top: -10px;
+            margin-bottom: 10px;
+            display: none;
+            font-family: "Open Sans", sans-serif;
+        }
+
+        .error-message.show {
+            display: block;
+        }
+
+        .enquiry-popup-form .submit-btn {
+            width: 100%;
+            margin-top: 10px;
+        }
+
+        /* Error styles for other forms */
+        #floatingContactForm input.error,
+        #floatingContactForm textarea.error,
+        #contactSectionForm input.error,
+        #contactSectionForm textarea.error {
+            border-color: #dc3545;
+        }
+
+        #floatingContactForm .error-message,
+        #contactSectionForm .error-message {
+            color: #dc3545;
+            font-size: 12px;
+            margin-top: -10px;
+            margin-bottom: 10px;
+            display: none;
+            font-family: "Open Sans", sans-serif;
+        }
+
+        #contactSectionForm .error-message {
+            margin-top: 5px;
+        }
+
+        #floatingContactForm .error-message.show,
+        #contactSectionForm .error-message.show {
+            display: block;
+        }
+
+        /* Mobile Enquiry Now Button */
+        .mobile-enquiry-btn {
+            display: none;
+            position: fixed;
+            right: -62px;
+            top: 50%;
+            transform: translateY(-50%) rotate(-90deg);
+            transform-origin: center;
+            background: #008f3c;
+            color: #fff;
+            border: none;
+            padding: 12px 15px;
+            border-radius: 0;
+            font-size: 16px;
+            font-weight: 500;
+            font-family: "Montserrat", sans-serif;
+            cursor: pointer;
+            z-index: 9999;
+            box-shadow: -4px 0 15px rgba(0, 143, 60, 0.4);
+            transition: all 0.3s ease;
+            letter-spacing: 1px;
+            white-space: nowrap;
+            line-height: 1.2;
+            text-transform: uppercase;
+        }
+
+        .mobile-enquiry-btn:hover {
+            background: #007a33;
+            box-shadow: -6px 0 20px rgba(0, 143, 60, 0.5);
+            transform: translateY(-50%) rotate(-90deg) scale(1.05);
+        }
+
+        .mobile-enquiry-btn:active {
+            transform: translateY(-50%) rotate(-90deg) scale(0.95);
+        }
+
+        .mobile-enquiry-btn span {
+            display: inline-block;
+        }
+
+        @media (max-width: 768px) {
+            .mobile-enquiry-btn {
+                display: block;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .enquiry-popup {
+                max-width: 95%;
+                margin: 10px;
+            }
+
+            .enquiry-popup-header {
+                padding: 15px;
+            }
+
+            .enquiry-popup-header h3 {
+                font-size: 20px;
+            }
+
+            .enquiry-popup-body {
+                padding: 20px;
+            }
+        }
+    </style>
+
+    <!-- Google Sheets Submission Function -->
+    <script>
+        // Validation Functions
+        function validateEmail(email) {
+            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            return emailRegex.test(email);
+        }
+
+        function validateMobile(mobile) {
+            const mobileRegex = /^[6-9]\d{9}$/;
+            return mobileRegex.test(mobile.replace(/\D/g, ''));
+        }
+
+        function showError(inputId, errorId, message) {
+            const input = document.getElementById(inputId);
+            const error = document.getElementById(errorId);
+            input.classList.add('error');
+            error.textContent = message;
+            error.classList.add('show');
+        }
+
+        function clearError(inputId, errorId) {
+            const input = document.getElementById(inputId);
+            const error = document.getElementById(errorId);
+            input.classList.remove('error');
+            error.classList.remove('show');
+        }
+
+        function validateForm(name, contact, email, formPrefix) {
+            let isValid = true;
+
+            // Determine the correct field IDs based on form prefix
+            let nameId, contactId, emailId, nameErrorId, contactErrorId, emailErrorId;
+
+            if (formPrefix === 'floating') {
+                nameId = 'floatingName';
+                contactId = 'floatingContact';
+                emailId = 'floatingEmail';
+                nameErrorId = 'floatingNameError';
+                contactErrorId = 'floatingContactError';
+                emailErrorId = 'floatingEmailError';
+            } else if (formPrefix === 'contact') {
+                nameId = 'contactName';
+                contactId = 'contactMobile';
+                emailId = 'contactEmail';
+                nameErrorId = 'contactNameError';
+                contactErrorId = 'contactMobileError';
+                emailErrorId = 'contactEmailError';
+            } else if (formPrefix === 'popup') {
+                nameId = 'popupName';
+                contactId = 'popupContact';
+                emailId = 'popupEmail';
+                nameErrorId = 'popupNameError';
+                contactErrorId = 'popupContactError';
+                emailErrorId = 'popupEmailError';
+            }
+
+            // Validate Name
+            if (!name || name.trim() === '') {
+                showError(nameId, nameErrorId, 'Name is required');
+                isValid = false;
+            } else {
+                clearError(nameId, nameErrorId);
+            }
+
+            // Validate Mobile
+            if (!contact || contact.trim() === '') {
+                showError(contactId, contactErrorId, 'Mobile number is required');
+                isValid = false;
+            } else if (!validateMobile(contact)) {
+                showError(contactId, contactErrorId, 'Please enter a valid 10-digit mobile number');
+                isValid = false;
+            } else {
+                clearError(contactId, contactErrorId);
+            }
+
+            // Validate Email
+            if (!email || email.trim() === '') {
+                showError(emailId, emailErrorId, 'Email address is required');
+                isValid = false;
+            } else if (!validateEmail(email)) {
+                showError(emailId, emailErrorId, 'Please enter a valid email address');
+                isValid = false;
+            } else {
+                clearError(emailId, emailErrorId);
+            }
+
+            return isValid;
+        }
+
+        async function submitToGoogleSheet(formData, submitButton, formElement) {
+            const scriptURL = "https://script.google.com/macros/s/AKfycbyP670paikqZHr-Kl0sMzslmEJTs8k3K7yw2cUFMl0mMaKetH3KE_gvEx1B6HyR_Yty/exec";
+
+            // Show loader and disable button
+            const originalButtonText = submitButton.innerHTML;
+            submitButton.disabled = true;
+            submitButton.innerHTML = '<span class="btn-loader"></span>Submitting...';
+
+            try {
+                const response = await fetch(scriptURL, {
+                    method: "POST",
+                    mode: "no-cors",
+                    headers: {
+                        "Content-Type": "application/x-www-form-urlencoded"
+                    },
+                    body: new URLSearchParams(formData)
+                });
+
+                // Simulate a small delay to show success state
+                setTimeout(() => {
+                    console.log("Data Sent Successfully!");
+
+                    // Mark enquiry as submitted in localStorage
+                    localStorage.setItem('enquirySubmitted', 'true');
+
+                    // Clear all form fields
+                    formElement.reset();
+
+                    // Clear any error messages
+                    const errors = formElement.querySelectorAll('.error-message');
+                    errors.forEach(error => error.classList.remove('show'));
+                    const errorInputs = formElement.querySelectorAll('.error');
+                    errorInputs.forEach(input => input.classList.remove('error'));
+
+                    // Restore button
+                    submitButton.disabled = false;
+                    submitButton.innerHTML = originalButtonText;
+
+                    // Close popup if it's open
+                    const popup = document.getElementById('enquiryPopup');
+                    if (popup.classList.contains('show')) {
+                        popup.classList.remove('show');
+                    }
+
+                    // Navigate to thanks page
+                    window.location.href = "thanks.html";
+                }, 500);
+            } catch (error) {
+                console.error("Error!", error);
+
+                // Restore button on error
+                submitButton.disabled = false;
+                submitButton.innerHTML = originalButtonText;
+
+                alert("Something went wrong. Please try again.");
+            }
+        }
+
+        // Floating Contact Form Handler
+        document.getElementById("floatingContactForm").addEventListener("submit", function (e) {
+            e.preventDefault();
+            const name = document.getElementById("floatingName").value.trim();
+            const contact = document.getElementById("floatingContact").value.trim();
+            const email = document.getElementById("floatingEmail").value.trim();
+
+            if (!validateForm(name, contact, email, 'floating')) {
+                return;
+            }
+
+            const submitButton = this.querySelector('button[type="submit"]');
+            const formData = {
+                name: name,
+                contact: contact,
+                email: email,
+                message: document.getElementById("floatingMessage").value.trim(),
+                project: "",
+                Date: new Date().toISOString()
+            };
+            submitToGoogleSheet(formData, submitButton, this);
+        });
+
+        // Contact Section Form Handler
+        document.getElementById("contactSectionForm").addEventListener("submit", function (e) {
+            e.preventDefault();
+            const name = document.getElementById("contactName").value.trim();
+            const contact = document.getElementById("contactMobile").value.trim();
+            const email = document.getElementById("contactEmail").value.trim();
+
+            if (!validateForm(name, contact, email, 'contact')) {
+                return;
+            }
+
+            const submitButton = this.querySelector('button[type="submit"]');
+            const formData = {
+                name: name,
+                contact: contact,
+                email: email,
+                message: document.getElementById("contactMessage").value.trim(),
+                project: "",
+                Date: new Date().toISOString()
+            };
+            submitToGoogleSheet(formData, submitButton, this);
+        });
+
+        // Popup Modal Functions
+        let popupClosed = false;
+
+        function openEnquiryPopup() {
+            const popup = document.getElementById('enquiryPopup');
+            popup.classList.add('show');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeEnquiryPopup() {
+            const popup = document.getElementById('enquiryPopup');
+            popup.classList.remove('show');
+            document.body.style.overflow = '';
+            popupClosed = true;
+        }
+
+        // Download Brochure Button Handler
+        document.getElementById('downloadBrochureBtn').addEventListener('click', function (e) {
+            e.preventDefault();
+            openEnquiryPopup();
+        });
+
+        // Mobile Enquiry Now Button Handler
+        document.getElementById('mobileEnquiryBtn').addEventListener('click', function (e) {
+            e.preventDefault();
+            openEnquiryPopup();
+        });
+
+        // Close Popup Handlers
+        document.getElementById('closeEnquiryPopup').addEventListener('click', closeEnquiryPopup);
+        document.getElementById('enquiryPopup').addEventListener('click', function (e) {
+            if (e.target === this) {
+                closeEnquiryPopup();
+            }
+        });
+
+        // Popup Form Handler
+        document.getElementById("enquiryPopupForm").addEventListener("submit", function (e) {
+            e.preventDefault();
+            const name = document.getElementById("popupName").value.trim();
+            const contact = document.getElementById("popupContact").value.trim();
+            const email = document.getElementById("popupEmail").value.trim();
+
+            if (!validateForm(name, contact, email, 'popup')) {
+                return;
+            }
+
+            const submitButton = this.querySelector('button[type="submit"]');
+            const formData = {
+                name: name,
+                contact: contact,
+                email: email,
+                message: document.getElementById("popupMessage").value.trim(),
+                project: "",
+                Date: new Date().toISOString()
+            };
+            submitToGoogleSheet(formData, submitButton, this);
+        });
+
+        // Auto-open Popup Logic
+        (function () {
+            // Check if enquiry was already submitted
+            if (localStorage.getItem('enquirySubmitted') === 'true') {
+                return; // Don't auto-open if already submitted
+            }
+
+            let reopenInterval = null;
+
+            // Function to start auto-reopen interval
+            function startAutoReopen() {
+                if (reopenInterval) {
+                    clearInterval(reopenInterval);
+                }
+                reopenInterval = setInterval(function () {
+                    if (localStorage.getItem('enquirySubmitted') === 'true') {
+                        clearInterval(reopenInterval);
+                        return;
+                    }
+                    if (!document.getElementById('enquiryPopup').classList.contains('show')) {
+                        openEnquiryPopup();
+                    }
+                }, 15000);
+            }
+
+            // First auto-open after 5 seconds
+            setTimeout(function () {
+                if (localStorage.getItem('enquirySubmitted') !== 'true') {
+                    if (!document.getElementById('enquiryPopup').classList.contains('show')) {
+                        openEnquiryPopup();
+                    }
+                }
+            }, 5000);
+
+            // Track when popup is closed to start auto-reopen
+            const closeBtn = document.getElementById('closeEnquiryPopup');
+            const popupOverlay = document.getElementById('enquiryPopup');
+
+            // Override close handlers to track close
+            const originalClose = closeBtn.onclick;
+            closeBtn.addEventListener('click', function () {
+                startAutoReopen();
+            });
+
+            popupOverlay.addEventListener('click', function (e) {
+                if (e.target === this) {
+                    startAutoReopen();
+                }
+            });
+        })();
+    </script>
+
+
+</body>
+
+</html>
