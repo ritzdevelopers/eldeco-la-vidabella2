@@ -1200,6 +1200,9 @@ button:focus {
     border: 2px solid #00984A;
     width: 305px;
     padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .lftGreenBox p {
@@ -1207,7 +1210,7 @@ button:focus {
     font-size: 20px;
     color: white;
     text-transform: uppercase;
-    text-align: center;
+    text-align: center; 
 }
 
 .innerBox {
@@ -1219,14 +1222,13 @@ button:focus {
 .innerBox .box {
     width: 55px;
     height: 55px;
-    background-color: #00984A;
-    padding-top: 8px;
+    background-color: #00984A; 
 }
 .innerBox div p {
     font-weight: 600;
     font-size: 28px;
     margin: 0px !important;
-    padding: 0px !important;
+    padding: 0px !important; 
     
 }
 .innerBox div {
