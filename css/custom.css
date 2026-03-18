@@ -976,7 +976,7 @@ textarea.custom-input {
 }
 
 .qr-image {
-    width: 120px;
+    width: 90px;
     height: auto;
     margin-bottom: 10px;
 }
@@ -1177,6 +1177,7 @@ button:focus {
     font-weight: 600;
     font-size: 22px;
     color: white;
+    font-family: "Montserrat", sans-serif;
 }
 
 .leftSideContainer div h2 {
@@ -1186,6 +1187,7 @@ button:focus {
     margin: 0px !important;
     padding: 0px !important;
     margin-bottom: 8px !important;
+    font-family: "Montserrat", sans-serif;
 }
 
 .leftSideContainer div h3 {
@@ -1194,6 +1196,7 @@ button:focus {
     color: white;
     padding: 0px !important;
     margin: 0px !important;
+    font-family: "Montserrat", sans-serif;
 }
 
 .lftGreenBox {
@@ -1297,7 +1300,7 @@ button:focus {
         gap: 25px;
     }
     .leftSideContainer {
-        gap: 10px;
+        gap: 14px;
         padding-bottom: 0;
         align-items: start;
     }
@@ -1305,16 +1308,16 @@ button:focus {
         text-align: start;
     }
     .lftImg {
-        width: 240px;
+        width: 160px;
     }
     .leftSideContainer div h1 {
-        font-size: 18px;
+        font-size: 15px;
     }
     .leftSideContainer div h2 {
-        font-size: 18px;
+        font-size: 15px;
     }
     .leftSideContainer div h3 {
-        font-size: 22px;
+        font-size: 17px;
     }
     .lftGreenBox {
         width: 260px;
@@ -1346,7 +1349,6 @@ button:focus {
 @media (max-width: 767px) {
     .homeBannerContentInner {
         max-width: 92%;
-        padding-bottom: 95px;
         gap: 20px;
     }
     .leftSideContainer {
@@ -1429,7 +1431,7 @@ button:focus {
         gap: 12px;
     }
     .leftSideContainer {
-        gap: 12px;
+        gap: 27px;
     }
     .lftImg {
         width: 140px;

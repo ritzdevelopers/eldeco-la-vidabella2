@@ -114,8 +114,7 @@
     border-radius: 100%;
 } 
 	 .carousel-item {
-    height: 500px;
-		 height: 580px;
+    height: 488px; 
 } 
 .desktop{display:none;}
 .mobile{display:block;}
