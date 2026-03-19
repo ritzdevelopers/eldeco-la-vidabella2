@@ -96,8 +96,14 @@ html {
     scroll-behavior: smooth;
 }
 
-/* Active link color */
+/* Active link color (amenities tabs etc.) */
 .nav-link.active {
+    color: #00984a !important;
+    font-weight: 700 !important;
+}
+
+/* Navbar section links: always show brand green when active (overrides text-white / text-dark) */
+.navbar .navbar-nav .nav-link.active {
     color: #00984a !important;
     font-weight: 700 !important;
 }

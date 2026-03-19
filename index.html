@@ -51,7 +51,7 @@
                     <li class="nav-item"><a class="nav-link text-white" href="#highlights">Highlights</a></li>
                     <li class="nav-item"><a class="nav-link text-white" href="#amenities">Amenities</a></li>
                     <li class="nav-item"><a class="nav-link text-white" href="#gallery">Gallery</a></li>
-                    <li class="nav-item"><a class="nav-link text-white" href="#floors-plan">Floors Plan</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#floors-plan">Floor Plans</a></li>
                     <li class="nav-item"><a class="nav-link text-white" href="#location">Location</a></li>
 
                     <li class="nav-item"><a class="nav-link text-white" href="#eldeco-group">Eldeco Group</a></li>
@@ -815,7 +815,7 @@
 
 
                         <div class="about-developer">
-                            <img src="images/about-eldeco.png" class="img-fluid" alt="">
+                            <img src="images/building.png" class="img-fluid" alt="">
                         </div>
                     </div>
 
@@ -959,9 +959,10 @@
             }
         });
 
-        // Active highlight on scroll (navbar section links only – do not affect amenities tabs)
-        // Uses "last section whose top passed the offset line" so tall sections (e.g. Amenities)
-        // don't stay active when you've jumped to Gallery or below.
+        // --- Page section tracking: navbar active link (scroll spy) ---
+        // Only .navbar-nav .nav-link[href^='#'] — does not touch amenities tabs.
+        // Uses last section (in nav order) whose top has passed scrollPos + offset, so tall
+        // sections (e.g. Amenities) don’t stay active after jumping to Gallery or below.
         function updateNavbarActiveSection() {
             var scrollPos = $(document).scrollTop();
             var nav = $(".navbar-nav");
@@ -993,6 +994,9 @@
         }
         $(window).on("scroll", updateNavbarActiveSection);
         $(window).on("load", updateNavbarActiveSection);
+        $(function () {
+            updateNavbarActiveSection();
+        });
         $(".navbar-nav .nav-link[href^='#']").on("click", function () {
             var href = $(this).attr("href");
             if (!href || href === "#") return;

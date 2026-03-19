@@ -189,8 +189,9 @@
     /* background: #d1cfcf; */
 }
 	.nav-item .text-white {/* color:#000!important; */}
-	 .nav-link.active {
-    color: #fbfbfb !important;
+	 /* Active link: bright mint green on green menu bar (still reads “green”, good contrast) */
+	 .navbar-nav .nav-link.active {
+    color: #c8ffd8 !important;
     font-weight: 700 !important;
   } .container70 {
     padding: 40px 0 20px;
@@ -566,8 +567,8 @@
     padding: 20px;
     
 } 
-	 .nav-link.active {
-    color: #fbfbfb !important;
+	 .navbar-nav .nav-link.active {
+    color: #c8ffd8 !important;
     font-weight: 700 !important;
   } .container70 {
     padding: 40px 0 20px;
