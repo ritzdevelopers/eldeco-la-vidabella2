@@ -40,12 +40,12 @@
 	
 	 
 	  #gallery {
-    scroll-margin-top: 100px; /* Adjust based on your header height */
+    scroll-margin-top: 55px; /* offset for fixed header – keep small to avoid over-scrolling */
 } #overview {
-    scroll-margin-top: 50px; /* Adjust based on your header height */
+    scroll-margin-top: 28px;
 }
 	 #highlights,  #eldeco-group, #amenities, #floors-plan, #location, #contact {
-    scroll-margin-top: 50px;  
+    scroll-margin-top: 28px;  
 }  
 	 
 	 
@@ -408,12 +408,12 @@
 
  @media screen and (min-device-width:768px) and (max-device-width:1023px){
 	 #gallery {
-    scroll-margin-top: 100px; /* Adjust based on your header height */
+    scroll-margin-top: 55px; /* offset for fixed header – keep small to avoid over-scrolling */
 } #overview {
-    scroll-margin-top: 50px; /* Adjust based on your header height */
+    scroll-margin-top: 28px;
 }
 	 #highlights,  #eldeco-group, #amenities, #floors-plan, #location, #contact {
-    scroll-margin-top: 50px;  
+    scroll-margin-top: 28px;  
 }  
 	 
 	 
